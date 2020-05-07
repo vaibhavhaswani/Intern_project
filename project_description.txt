@@ -1,0 +1,34 @@
+For the given project I have used 
+Python with Flask (a web-development framework with jinja templating scheme) for backened.
+And there's a low key frontend as I haven't given much focus to it.
+I hope the scenario requirements and given contraints are fulfilled.
+
+
+Instructions to start the server:
+
+note:- The virual environment in my project is windows based
+
+1) activate the virtual environment by :
+		>Open cmd/ps on the project path
+		>type in cmd: "venv\Scripts\activate"
+2) Open server.py with any code editor
+3) Change the values for admin_email,admin_pass,client_email
+4) in cmd type : 
+		>python server.py
+5) Server will be activated in localhost
+
+
+Working Description:
+
+1) Home Page has competition description and options to signup and login
+2) In SignUp page user is asked to fill the given form registration is username specific so each should have unique username. Otherwise server will prompt to fill choose different username.
+3) After a successful signup user will directed to dashboard page having details like(current points and refferal links), he'll also recieve the email from admin containing sharable links.
+4) User can check their points trough login page. users should have to remember their username for login.
+5) Each successful sign with user's refferal will lead him one point.
+6) After the expiration of given duration of competition server will automatically get shutdown and results will be shared with client through mail.
+
+
+
+
+
+*Description of server code is provided with code only though comments*

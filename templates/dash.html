@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<center><h1>DASHBOARD</h1>
+<br><br<br>
+    <h3>Your Points:</h3>{{points}}
+    <br><br><br><br>
+    <h5>Your Referral link (Copy):</h5>
+    <a href="{{link}}">{{link}}</a><br><br><br>
+    <h5>Share on:</h5>
+    <a  href="{{'https://twitter.com/intent/tweet?text='+link}}"><i class="fa fa-twitter"> Twitter </i></a> &nbsp;&nbsp; &nbsp; &nbsp;<a href="{{'https://www.facebook.com/sharer/sharer.php?u='+link}}"><i class="fa fa-facebook"> Facebook </i></a>
+    <br><br><br><br>
+    <a href="/home"><button>Logout</button></a>
+</center>
+</body>
+</html>
