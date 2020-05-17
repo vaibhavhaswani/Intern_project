@@ -1,4 +1,4 @@
-A flask web app source I made for an internship selection
+A flask web app source I made for an internship.
 
 Their Scenario- 
 
